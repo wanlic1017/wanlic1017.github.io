@@ -31,7 +31,7 @@ export default function SubjectCard({ subject }: SubjectCardProps) {
       </p>
 
       <div className="mt-8 flex flex-wrap gap-2">
-        {subject.modules.slice(0, 3).map((module) => (
+        {subject.modules.slice(0, 6).map((module) => (
           <span
             key={module.slug}
             className="rounded-full bg-slate-100 px-3 py-1.5 text-xs font-medium text-slate-700"
