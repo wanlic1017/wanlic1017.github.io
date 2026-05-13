@@ -7,22 +7,12 @@ function getBooleanFirebaseEnv(name: keyof ImportMetaEnv) {
 }
 
 export const firebaseWebConfig = {
-  apiKey:
-    getOptionalFirebaseEnv("VITE_FIREBASE_API_KEY") ||
-    "AIzaSyDrC3BXV7z41IzJ_2oerBc4YDsqWBVIuQM",
-  authDomain:
-    getOptionalFirebaseEnv("VITE_FIREBASE_AUTH_DOMAIN") ||
-    "haerenganz-app.firebaseapp.com",
-  projectId:
-    getOptionalFirebaseEnv("VITE_FIREBASE_PROJECT_ID") || "haerenganz-app",
-  storageBucket:
-    getOptionalFirebaseEnv("VITE_FIREBASE_STORAGE_BUCKET") ||
-    "haerenganz-app.firebasestorage.app",
-  messagingSenderId:
-    getOptionalFirebaseEnv("VITE_FIREBASE_MESSAGING_SENDER_ID") || "516721277681",
-  appId:
-    getOptionalFirebaseEnv("VITE_FIREBASE_APP_ID") ||
-    "1:516721277681:web:4fd365c690ef0885210750",
+  apiKey: getOptionalFirebaseEnv("VITE_FIREBASE_API_KEY"),
+  authDomain: getOptionalFirebaseEnv("VITE_FIREBASE_AUTH_DOMAIN"),
+  projectId: getOptionalFirebaseEnv("VITE_FIREBASE_PROJECT_ID"),
+  storageBucket: getOptionalFirebaseEnv("VITE_FIREBASE_STORAGE_BUCKET"),
+  messagingSenderId: getOptionalFirebaseEnv("VITE_FIREBASE_MESSAGING_SENDER_ID"),
+  appId: getOptionalFirebaseEnv("VITE_FIREBASE_APP_ID"),
   measurementId: getOptionalFirebaseEnv("VITE_FIREBASE_MEASUREMENT_ID") || undefined,
 };
 
