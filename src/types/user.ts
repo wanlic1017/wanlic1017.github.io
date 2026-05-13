@@ -8,7 +8,15 @@ export type UserUsage = {
 export type AppUser = {
   uid: string;
   email: string;
-  plan: "free" | "pro";
+  firstName: string;
+  lastName: string;
+  phone?: string | null;
+  emailVerified: boolean;
+  plan: "free" | "materials" | "practice" | "full" | "pro";
+  accessSource?: string;
+  moduleAccess?:
+    | string[]
+    | Record<string, boolean | string | string[] | Record<string, boolean | string>>;
   createdAt: number;
-  usage: UserUsage;
+  usage?: UserUsage;
 };

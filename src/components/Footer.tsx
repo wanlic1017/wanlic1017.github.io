@@ -1,19 +1,15 @@
 export default function Footer() {
   return (
-    <footer className="border-t border-slate-200/70 bg-white">
-      <div className="mx-auto max-w-7xl px-6 py-10 lg:px-10">
-        <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
+    <footer className="border-t border-black/6 bg-[#fbfbfd]">
+      <div className="mx-auto max-w-[1600px] px-6 py-6 sm:px-6 lg:px-6">
+        <div className="flex flex-col items-center justify-between gap-2 text-center md:flex-row md:text-left">
           <div>
-            <div className="text-sm font-semibold text-slate-900">
-              Haerenga
-            </div>
-            <div className="text-xs text-slate-500">
-              HSFY revision platform
-            </div>
+            <div className="text-sm font-semibold text-[#1d1d1f]">HaerengaNZ</div>
+            <div className="text-xs text-[#6e6e73]">HSFY revision platform</div>
           </div>
 
-          <div className="text-xs text-slate-500">
-            © {new Date().getFullYear()} Haerenga. All rights reserved.
+          <div className="text-xs text-[#6e6e73]">
+            © {new Date().getFullYear()} HaerengaNZ. All rights reserved.
           </div>
         </div>
       </div>
