@@ -1,1 +1,0 @@
-import{k as e}from"./functionsRequest-B-JQy-KN.js";import{D as t}from"./index-LTISsYrY.js";import{t as n}from"./SubjectPageLayout-DM8H8RS_.js";var r=e();function i(){let e=t(`hubs191`);return e?(0,r.jsx)(n,{subject:e}):(0,r.jsx)(`div`,{className:`p-10`,children:`Subject not found.`})}export{i as default};
