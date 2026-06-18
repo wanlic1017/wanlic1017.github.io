@@ -1,0 +1,1 @@
+import{k as e}from"./functionsRequest-B-JQy-KN.js";import{g as t}from"./CheckoutPreflight-CImaErEg.js";import{t as n}from"./SubjectPageLayout-Dk4Jws4o.js";var r=e();function i(){let e=t(`cels191`);return e?(0,r.jsx)(n,{subject:e}):(0,r.jsx)(`div`,{className:`p-10`,children:`Subject not found.`})}export{i as default};
