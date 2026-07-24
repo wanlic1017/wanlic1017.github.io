@@ -1,0 +1,1 @@
+import{t as e}from"./functionsRequest-DGo6PHBH.js";var t=async t=>e(`/getQuestionDetails`,{method:`POST`,body:{questionIds:t}});export{t};
