@@ -1,0 +1,1 @@
+var e=`https://haerenganz.com`?.trim()??``,t=`https://us-central1-haerenganz-app.cloudfunctions.net`?.trim()??``,n=`Pacific/Auckland`;export{e as n,t as r,n as t};
